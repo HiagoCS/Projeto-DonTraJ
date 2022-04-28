@@ -10,6 +10,7 @@
 <body>
     <div class="wnavbar p1">
     	<img src="images\logo.png" class="wlogo">
+    	<img src="images\logo nome.png" class="wlogo2">
     	<nav class="wnav">
     		<a href="#" class="link">Teste</a>
     		<a href="#" class="link">visualizar cursos</a>
@@ -20,7 +21,41 @@
     <div class="wslide">
     	
     </div>
-    <div class="wconteudo p1">
+    <div class="wconteudo">
+    	<div class="wln p3" id="img1">
+    		<div class="se">
+    			<div class="winfoa p1a">
+    				<fieldset class="text pc3">
+    					<legend>Titulo1</legend>
+    					<label>
+    						isso é um texto ramdom, pão de batata angolana;
+    					</label>
+    				</fieldset>
+	    		</div>
+	    		<div class="winfob p1a"></div>
+    		</div>
+    	</div>
+
+    	<div class="wln p3">
+    		<div class="se">
+    			<div class="winfoa p1a">
+    			
+	    		</div>
+	    		<div class="winfob p1a"></div>
+    		</div>
+    	</div>
+
+    	<div class="wln p3">
+    		<div class="se">
+    			<div class="winfoa p1a">
+    			
+	    		</div>
+	    		<div class="winfob p1a"></div>
+    		</div>
+    	</div>
+    </div>
+
+    <div class="wnavbar p2">
     	
     </div>
 </body>
