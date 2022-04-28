@@ -26,28 +26,24 @@
 		flex-direction: row;
 		justify-content: space-around; 
 	}
+	.wslide{
+		width: 100vw;
+		height: 70vh; 
+	}
+	.wconteudo{
+		width: 100vw;
+		height: 300vh;
+	}
 /*paleta*/
 	.p1{
 	    background-color: rgba(242, 238, 224, 0.5);
 	}
-	.p1:hover{
-		background-color: rgba(242, 238, 224, 1); 
-	}
 	.p2{
 	    background-color: rgba(200, 230, 245, 0.5);
-	}
-	.p2:hover{
-		background-color: rgba(200, 230, 245, 1); 
 	}
 	.p3{
 	    background-color: rgba(94, 10, 10, 0.5);
 	}
-	.p3:hover{
-		background-color: rgba(94, 10, 10, 1); 
-	}
 	.p4{
 		background-color: rgba(92, 160, 211, 0.5);
-	}
-	.p4:hover{
-		background-color: rgba(92, 160, 211, 1); 
 	}
