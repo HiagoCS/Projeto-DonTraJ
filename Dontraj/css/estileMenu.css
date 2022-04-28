@@ -1,0 +1,235 @@
+*{
+    padding: 0px;
+	margin: 0px;
+}
+@font-face{
+	font-family: 'fontex';
+	src: url('../fonts/Collinside.ttf') format('truetype');
+}
+/*scrool*/
+	::-webkit-scrollbar{
+		
+	    width: 12px;
+	}
+	::-webkit-scrollbar-thumb{
+	    background: rgb(200, 230, 245);
+	    border-radius: 6px;
+	}
+	::-webkit-scrollbar-thumb:hover{
+	    background: rgb(92, 160, 211);
+	    border-radius: 6px;
+	}
+body{
+	background: rgb(5,79,134);
+	background: linear-gradient(141deg, rgba(5,79,134,1) 0%, rgba(238,248,254,1) 100%);
+	overflow-x: hidden;
+}
+/*tamanhos*/
+	/*all*/
+		.wnavbar{
+		    width: 100vw;
+		    height: 7vh;
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: space-around;
+		    align-items: center;
+		    align-content: center; 
+		    z-index: 1;
+		}
+			.wlogo{ 
+				margin-top: 0.3vh;
+			    width: 3%;
+			    height: 80%;
+			    z-index: 2;
+			    transition: all 0.25s;
+			}
+			.wlogo2{ 
+				margin-left: -10vw;
+			    width: 10%;
+			    height: 90%;
+			    z-index: 2;
+			}
+			.wlogo:hover{
+				margin-top: 0px;
+				width: 4%;
+				height: 100%;
+			}
+			.wnav{
+				width: 40vw;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around; 
+				z-index: 3;
+			}
+			.link{
+			    transition: all 0.25s;
+				text-decoration: none;
+				font-size: 3vh; 
+				font-weight: bold;
+				font-family: 'fontex';
+	    		color: rgb(94, 10, 10);
+	    		height: 7vh;
+	    		display: flex;
+	    		flex-direction: row;
+	    		align-items: center;
+	    		justify-content: center;
+	    		z-index: 4;
+			}
+			.link:hover{
+				text-decoration: none;
+				font-size: 3vh; 
+				font-weight: bold;
+				border-radius: 15px; 
+				background-color: rgb(92, 160, 211);
+				color: rgb(242, 238, 224);
+			}
+		.wconteudo{
+			margin-left: 10vw;
+			margin-top: 5vh;
+			width: 80vw;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			align-content: center;
+			z-index: 1;
+		}
+			.wln{
+				margin-bottom: 20vh;
+				width: 80vw;
+				height: 60vh;
+				display: flex;
+				flex-direction: row;
+				z-index: 2;
+			}
+				.se{
+					display: flex;
+					flex-direction: row;
+					width: 65%;
+					height: 100%
+				}
+					.winfoa{
+						width: 95%;
+						height: 100%;
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						justify-content: center;
+						align-content: center;
+						align-items: center;
+						z-index: 3;
+					}
+						.text{
+							border: 0px;
+							width: 70%;
+							height: auto;
+							font-family: monospace;
+							font-weight: bold;
+							font-size: 6vh;
+							z-index: 4;
+						}
+							legend{
+								font-size: 5vh;
+							}
+					.winfob{
+						margin-left: -1vw;
+						width: 35%;
+						height: 100%;
+				        transform: skew(345deg) translateX(-70px);
+				        z-index: 2;
+					}
+/*paleta*/
+	.p1{
+	    background-color: rgba(242, 238, 224, 1);
+	}
+	.p1_2{
+	    background-color: rgb(196, 181, 155);
+	}
+	.p2{
+	    background-color: rgba(200, 230, 245, 0.5);
+	}
+	.p3{
+	    background-color: rgba(94, 10, 10, 0.5);
+	}
+	.p4{
+		background-color: rgba(92, 160, 211, 0.5);
+	}
+	.p1a{
+		background-color: rgb(242, 238, 224);
+	}
+/*peleta text*/
+	.pc1{
+	    color: rgb(242, 238, 224);
+	}
+	.pc1_2{
+	    color: rgb(196, 181, 155);
+	}
+	.pc2{
+	    color: rgb(200, 230, 245);
+	}
+	.pc3{
+	    color: rgb(94, 10, 10);
+	}
+	.pc4{
+		color: rgb(92, 160, 211);
+	}
+	.pc1a{
+		color: rgb(242, 238, 224);
+	}
+/*responsive*/
+	@media screen and (max-width: 992px){
+		.wnavbar{
+			width: 100vw;
+		    height: 25vh;
+		}
+		.wnav{
+			display: none;
+		}
+		.wlogo{
+			width: 25vw;
+		}
+		.wlogo2{
+			display: none;
+		}
+		.wln{
+			height: 45vh;
+			margin-bottom: 5vh;
+		}
+		.text{
+			border: 0px;
+			width: 70%;
+			height: auto;
+			font-family: monospace;
+			font-weight: bold;
+			font-size: 3vh;
+		}
+		legend{
+			font-size: 5vh;
+		}
+	}
+	@media screen and (max-width: 760px){
+		.wnavbar{
+			width: 100vw;
+		    height: 25vh;
+		}
+		.wlogo{
+			width: 55vw;
+		}
+		.wln{
+			height: 25vh;
+			margin-bottom: 5vh;
+		}
+		.winfob{
+			display: none;
+		}
+	}
+/*imgs*/
+	.img{
+		height: 6vh;
+	}
+	#img1{
+		background-image: url('#');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
