@@ -6,7 +6,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link rel="stylesheet" type="text/css" href="css/estileMenu.css">
 	    <link rel="stylesheet" type="text/css" href="css/estileimg.css">
-	    <title>Main</title>
+	    <title>ETEC</title>
 	</head>
 	<body>
 	    <div class="wnavbar p1">
@@ -14,8 +14,8 @@
 	    	<img src="images\logo nome.png" class="wlogo2">
 	    	<nav class="wnav">
 	    		<a href="form.html" class="link">Teste</a>
-	    		<a href="Cursos.php" class="link">Curso</a>
-	    		<a href="Etec.php" class="link">ETEC</a>
+	    		<a href="Cursos.php" class="link">Cursos</a>
+	    		<a href="index.php" class="link">menu</a>
 	    		<a href="#" class="link">Ir para ETEC</a>
 	    	</nav>
 	    </div>
@@ -25,48 +25,47 @@
 	    		<div class="se">
 	    			<div class="winfoa p1a">
 	    				<fieldset class="text pc3">
-	    					<legend>Quem somos</legend>
+	    					<legend>Escola</legend>
 	    					<label>
-	    						Somos da DonTraJ, uma equipe de programadores e design e criamos esse site para :
+	    						Etec é um Escola Estudal de ensino Medio com Cursos
 	    					</label>
 	    				</fieldset>
 		    		</div>
 		    		<div class="winfob p1a"></div>
 	    		</div>
-	    		<img src="images/lontra.jpg" class="jod">
+	    		<img src="images/etec.png" class="des">
 	    	</div>
 
 	    	<div class="wln p3">
 	    		<div class="se">
 	    			<div class="winfoa p1a">
 	    				<fieldset class="text pc3">
-	    					<legend>Objetivo</legend>
+	    					<legend>Professores</legend>
 	    					<label>
-	    						temos o objetivo de divulgar o vestibulinho da ETEC do Centro Paula Souza
+	    						professores com alto desempenho em ensinar
 	    					</label>
 	    				</fieldset>
 		    		</div>
 		    		<div class="winfob p1a"></div>
 	    		</div>
-	    		<img src="images/meta.jpg" class="jod">
+	    		<img src="images/rodolfo.jpg" class="des">
 	    	</div>
 
 	    	<div class="wln p3">
 	    		<div class="se">
 	    			<div class="winfoa p1a">
 	    				<fieldset class="text pc3">
-	    					<legend>como usar o site?</legend>
+	    					<legend>Cursos</legend>
 	    					<label>
-	    						O site foi produzido como forma para medir suas habilidades com o intuito de você notar sua maestria
+	    						E cursos para te preparar para o mercado de trabalho
 	    					</label>
 	    				</fieldset>
 		    		</div>
 		    		<div class="winfob p1a"></div>
 	    		</div>
-	    		<img src="images/pensar.jpg" class="jod">
+	    		<img src="images/curso.jpg" class="des">
 	    	</div>
 	    </div>
-
 	    <div class="wnavbar p4">
 	    	<img src="images\logo nome.png" id="wlogo2a">
 	    	<nav class="wnava">

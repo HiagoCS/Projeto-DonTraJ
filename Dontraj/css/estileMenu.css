@@ -106,6 +106,7 @@ body{
 					flex-direction: row;
 					width: 65%;
 					height: 100%
+					z-index: 3;
 				}
 					.winfoa{
 						width: 95%;
@@ -124,19 +125,13 @@ body{
 							height: auto;
 							font-family: monospace;
 							font-weight: bold;
-							font-size: 6vh;
+							font-size: 4vh;
 							z-index: 4;
 						}
 							legend{
-								font-size: 5vh;
+								font-size: 6vh;
 							}
-					.winfob{
-						margin-left: -1vw;
-						width: 35%;
-						height: 100%;
-				        transform: skew(345deg) translateX(-70px);
-				        z-index: 2;
-					}
+					
 /*paleta*/
 	.p1{
 	    background-color: rgba(242, 238, 224, 1);
@@ -189,6 +184,9 @@ body{
 		}
 		.wlogo2{
 			display: none;
+		}
+		#a{
+			display: flex;
 		}
 		.wln{
 			height: 45vh;

@@ -6,7 +6,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link rel="stylesheet" type="text/css" href="css/estileMenu.css">
 	    <link rel="stylesheet" type="text/css" href="css/estileimg.css">
-	    <title>Main</title>
+	    <title>Cursos</title>
 	</head>
 	<body>
 	    <div class="wnavbar p1">
@@ -14,56 +14,113 @@
 	    	<img src="images\logo nome.png" class="wlogo2">
 	    	<nav class="wnav">
 	    		<a href="form.html" class="link">Teste</a>
-	    		<a href="Cursos.php" class="link">Curso</a>
+	    		<a href="index.php" class="link">Menu</a>
 	    		<a href="Etec.php" class="link">ETEC</a>
 	    		<a href="#" class="link">Ir para ETEC</a>
 	    	</nav>
 	    </div>
 	    
 	    <div class="wconteudo">
-	    	<div class="wln p3" id="img1">
+	    	<div class="wln p3">
 	    		<div class="se">
 	    			<div class="winfoa p1a">
 	    				<fieldset class="text pc3">
-	    					<legend>Quem somos</legend>
 	    					<label>
-	    						Somos da DonTraJ, uma equipe de programadores e design e criamos esse site para :
+	    						Desenvolvimento de Sistemas
 	    					</label>
+	    					<nav class="wn">
+	    						<a href="#" class="link">+ Sobre</a>
+	    					</nav>
 	    				</fieldset>
 		    		</div>
 		    		<div class="winfob p1a"></div>
 	    		</div>
-	    		<img src="images/lontra.jpg" class="jod">
+	    		<img src="images/des.jpg" class="des">
 	    	</div>
 
 	    	<div class="wln p3">
 	    		<div class="se">
 	    			<div class="winfoa p1a">
 	    				<fieldset class="text pc3">
-	    					<legend>Objetivo</legend>
 	    					<label>
-	    						temos o objetivo de divulgar o vestibulinho da ETEC do Centro Paula Souza
+	    						Adiministração
 	    					</label>
+	    					<nav class="wn">
+	    						<a href="#" class="link">+ Sobre</a>
+	    					</nav>
 	    				</fieldset>
 		    		</div>
 		    		<div class="winfob p1a"></div>
 	    		</div>
-	    		<img src="images/meta.jpg" class="jod">
+	    		<img src="images/adm.jpg" class="mad">
 	    	</div>
 
 	    	<div class="wln p3">
 	    		<div class="se">
 	    			<div class="winfoa p1a">
 	    				<fieldset class="text pc3">
-	    					<legend>como usar o site?</legend>
 	    					<label>
-	    						O site foi produzido como forma para medir suas habilidades com o intuito de você notar sua maestria
+	    						Jogos Digitais
 	    					</label>
+	    					<nav class="wn">
+	    						<a href="#" class="link">+ Sobre</a>
+	    					</nav>
 	    				</fieldset>
 		    		</div>
 		    		<div class="winfob p1a"></div>
 	    		</div>
-	    		<img src="images/pensar.jpg" class="jod">
+	    		<img src="images/jod.jpg" class="jod">
+	    	</div>
+
+	    	<div class="wln p3">
+	    		<div class="se">
+	    			<div class="winfoa p1a">
+	    				<fieldset class="text pc3">
+	    					<label>
+	    						Contabilidade
+	    					</label>
+	    					<nav class="wn">
+	    						<a href="#" class="link">+ Sobre</a>
+	    					</nav>
+	    				</fieldset>
+		    		</div>
+		    		<div class="winfob p1a"></div>
+	    		</div>
+	    		<img src="images/conta.png" class="jod">
+	    	</div>
+
+	    	<div class="wln p3">
+	    		<div class="se">
+	    			<div class="winfoa p1a">
+	    				<fieldset class="text pc3">
+	    					<label>
+	    						Edificação
+	    					</label>
+	    					<nav class="wn">
+	    						<a href="#" class="link">+ Sobre</a>
+	    					</nav>
+	    				</fieldset>
+		    		</div>
+		    		<div class="winfob p1a"></div>
+	    		</div>
+	    		<img src="images/edi.jpg" class="jod">
+	    	</div>
+
+	    	<div class="wln p3">
+	    		<div class="se">
+	    			<div class="winfoa p1a">
+	    				<fieldset class="text pc3">
+	    					<label>
+	    						Turismo
+	    					</label>
+	    					<nav class="wn">
+	    						<a href="#" class="link">+ Sobre</a>
+	    					</nav>
+	    				</fieldset>
+		    		</div>
+		    		<div class="winfob p1a"></div>
+	    		</div>
+	    		<img src="images/tur.jpg" class="jod">
 	    	</div>
 	    </div>
 
