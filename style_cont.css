@@ -1,0 +1,50 @@
+#navmenu{
+    box-shadow: 1px 0.1px 1px black;
+}
+
+#menucell{
+    display: none;
+}
+
+#navmenu{
+    background-color: white;
+}
+
+#imglogomenu{
+    height: 70px;
+}
+
+#buttom1{
+    border: 0.5px solid black;
+    color: black;
+    
+}
+
+#buttom1:hover{
+    color: white;
+    background-color: black;
+}
+
+#maincss{
+    background-image: url('./images/cont/cont_wallpaper.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+@media screen and (max-width: 992px) {
+    #itemsmenu{
+        display: none;
+    }
+
+    #menucell{
+        display: flex;
+    }
+}
+
+#infodes1{
+    
+    height: 50vh;
+    border: 1px solid rgb(209, 209, 209);
+}
