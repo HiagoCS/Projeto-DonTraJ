@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloForm.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="ch.js"></script>
+    <title>Teste Vocacional</title>
+</head>
+<style>
+
+</style>
+<body>
+
+    <!-- Menu PC -->
+
+    <nav id="navmenu" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="index.html"><img id="imglogomenu" src="./images/logo.png" class="media-object  img-responsive img-thumbnail"></a>
+            
+        <div class="d-flex" id="navbarSupportedContent">
+            <ul id="itemsmenu" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.php">Página Principal</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    
+                        Cursos
+                    
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Desenvolvimento de Sistemas</a></li>
+                        <li><a class="dropdown-item" href="#">Jogos Digitais</a></li>
+                        <li><a class="dropdown-item" href="#">Adiministração</a></li>
+                        <li><a class="dropdown-item" href="#">Edificação</a></li>
+                        <li><a class="dropdown-item" href="#">Turismo</a></li>
+                        <li><a class="dropdown-item" href="#">Contabilidade</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ir para Etec</a>
+                </li>
+                
+        </ul>
+        
+        </div>
+        </div>
+    </nav>
+
+    <!-- Menu Cell -->
+
+    <nav id="menucell" class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a href="index.html"><img id="imglogomenu" src="./images/logo.png" class="media-object  img-responsive img-thumbnail"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul id="listmenucell" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.php">Página Principal</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    
+                        Cursos
+                    
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Desenvolvimento de Sistemas</a></li>
+                        <li><a class="dropdown-item" href="#">Jogos Digitais</a></li>
+                        <li><a class="dropdown-item" href="#">Adiministração</a></li>
+                        <li><a class="dropdown-item" href="#">Edificação</a></li>
+                        <li><a class="dropdown-item" href="#">Turismo</a></li>
+                        <li><a class="dropdown-item" href="#">Contabilidade</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ir Para Etec</a>
+                </li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+      <div class="tbody">
+        <form action="red.php" method="post">
+            <fieldset>
+                <legend><h2>Que curso você acha que terá mais afinidade?<h2></legend>
+                <br>
+                <input type ="checkbox" id = "adm" name ="adm" value = "1">
+                <label id="radioselect" for="adm"> Admininstração </label>
+
+                <input type ="checkbox" id ="ds" name = "des" value = "2">
+                <label id="radioselect" for="ds">Desenvolvimento de Sistemas</label>
+
+                <input type ="checkbox" id ="jod" name = "jod" value = "3">
+                <label id="radioselect" for="jod">Jogos Digitais</label>
+
+                <input type ="checkbox" id ="cont" name = "con" value = "4">
+                <label id="radioselect" for="cont">Contabilidade</label>
+
+                <input type ="checkbox" id ="edf" name = "edi" value = "5">
+                <label id="radioselect" for="edf">Edificações</label>
+
+                <input type ="checkbox" id = "tur" name = "tur" value = "6">
+                <label id="radioselect" for="tur">Turismo</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Com qual característica você mais se identifica?</h2></legend>
+                <br>
+                <input type = "checkbox" id = "adm" name = "get" value = "1">
+                <label for ="adm"> Gestão </label>
+
+                <input type = "checkbox" id = "ds" name = "log" value = "2">
+                <label for=" ds">Logica</label>
+
+                <input type = "checkbox" id = "jod" name = "des" value = "3">
+                <label for="jod">Design</label>
+
+                <input type = "checkbox" id = "cont" name = "exa" value = "4">
+                <label for="cont">Exatas</label>
+
+                <input type = "checkbox" id = "tur" name = "com" value = "6">
+                <label for="tur">Comunicação</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend><h2> Dos verbos abaixo representam ações genéricas que você acredita se sentir confortável desempenhando profissionalmente?</h2></legend>
+                <br>
+                <input type="checkbox" name="org" id="" value="1">
+                <label for="organizar">organizar</label>
+
+                <input type="checkbox" name="cal" id="" value="2">
+                <label for="">calcular</label>
+
+                <input type="checkbox" name="cri" id="" value="3">
+                <label for="">criar</label>
+                
+                <input type="checkbox" name="plan" id="" value="4">
+                <label for="">planejar</label>
+
+                <input type="checkbox" name="ana" id="" value="5">
+                <label for="">analisar</label>
+
+                <input type="checkbox" name="des" id="" value="6">
+                <label for="">desenvolver</label>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Em qual das áreas abaixo, você acredita ter MENOS afinidade, e dificilmente trabalharia um dia?</h2></legend>
+                <br>
+                <input type="checkbox" name="k" id="exatas" value="1">
+                <label for="exatas">Exatas</label>
+
+                <input type="checkbox" name="k2" id="humanas" value="2">
+                <label for="humanas">Humanas</label>
+            </fieldset>
+            <br>
+            <button class="btn-grad" type="submit" name="acao" value="enviar">Enviar</button>
+            
+        </form>
+    </div>
+    </div>
+
+</body>
+</html>
